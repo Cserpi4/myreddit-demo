@@ -9,7 +9,7 @@ const expressLoader = () => {
   app.use(
     cors({
       origin: [
-        'https://myfeed-demo.netlify.app',
+        'https://myfeed-typescript.netlify.app',
         'http://localhost:3001',
       ],
       methods: ['GET', 'POST'],
